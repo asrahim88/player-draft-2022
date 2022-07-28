@@ -1,0 +1,12 @@
+.playerListContainer {
+    width: 90%;
+    margin: auto;
+}
+.playerList {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.allPlayerContainer {
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+}

@@ -1,0 +1,49 @@
+
+.playerBox {
+    border: 2px solid lightgray;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+.img-box img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.tableBox {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.tHeading th{
+    text-align: center;
+    color: white;
+}
+.tData td{
+    color: white;
+}
+.textColor {
+    color: white;
+}
+.modalContainer {
+    display: flex;
+    justify-content: center;
+}
+.soldBtn {
+    margin-right: 10px;
+    width: 80px;
+    background-color: transparent;
+    border: 1px solid lightgray;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: all 1s;
+}
+.soldBtn:hover {
+    background-color: white;
+    color: rgb(11, 17, 59);
+    font-weight: 700;
+}
+
