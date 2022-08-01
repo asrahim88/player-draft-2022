@@ -1,35 +1,48 @@
-
 .playerBox {
     border: 2px solid lightgray;
     text-align: center;
     margin: 5px;
     border-radius: 10px;
     padding: 10px 0;
+    transition: all 1s;
+
 }
+
+.playerBox:hover {
+    box-shadow: -5px -5px 10px 0px rgba(138, 217, 249, 0.307), 5px 5px 10px 0px
+     rgba(104, 184, 233, 0.308);
+}
+
 .img-box img {
     width: 80px;
     height: 80px;
     border-radius: 50%;
 }
+
 .tableBox {
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
 }
-.tHeading th{
+
+.tHeading th {
     text-align: center;
     color: white;
 }
-.tData td{
+
+.tData td {
     color: white;
 }
+
 .textColor {
     color: white;
 }
+
 .modalContainer {
     display: flex;
     justify-content: center;
 }
+
 .soldBtn {
     margin-right: 10px;
     width: 80px;
@@ -41,9 +54,12 @@
     border-radius: 3px;
     transition: all 1s;
 }
+
 .soldBtn:hover {
     background-color: white;
     color: rgb(11, 17, 59);
     font-weight: 700;
 }
-
+.success {
+    background-color: green;
+}

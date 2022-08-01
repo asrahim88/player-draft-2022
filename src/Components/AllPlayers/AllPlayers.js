@@ -1,11 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Modal from '../Modal/Modal';
 import './AllPlayers.css'
 
 const AllPlayers = (props) => {
-    const { name, image, role, salary
+    const { name, image, role, salary, nation, id
     } = props.player;
-    console.log(props.player)
+
+    const [addRemove, setAddRemove] = useState(true);
+
+    const handleAddPlayer = () => {
+        props.soldPlayer(props.player)
+        setAddRemove(false);
+    };
+    const handleRemovePlayer = () => {
+        props.deleteSoldPlayer(id);
+        setAddRemove(true);
+    }
+
     return (
         <div className='playerBox'>
             <div className="img-box">
@@ -30,15 +41,19 @@ const AllPlayers = (props) => {
                                 {salary}
                             </td>
                             <td>
-                                Bangladeshi
+                                {nation}
                             </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <div className='modalContainer'>
-                <button className='soldBtn'>Unsold</button>
-                <Modal />
+                {
+                    addRemove ? <button className='soldBtn' onClick={handleAddPlayer}>Unsold</button>
+                    :
+                    <button className='soldBtn success' onClick={handleRemovePlayer}>Sold</button>
+                }
+                <Modal playerInfo = {props.player}/>
             </div>
         </div>
     );

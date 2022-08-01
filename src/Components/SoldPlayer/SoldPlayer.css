@@ -1,0 +1,25 @@
+.selectionHeading {
+    color: white;
+    text-align: center;
+}
+.selectionContainer {
+    width: 100%;
+    height: 450px;
+    border: 1px solid white;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 10px; 
+}
+.selectionBody {
+    position: fixed;
+}
+.soldPlayerDescription {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -15px;
+    height: 250px;
+    overflow: scroll;
+}
+.soldPlayerDescription::-webkit-scrollbar {
+    display: none;
+}

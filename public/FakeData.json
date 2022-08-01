@@ -8,7 +8,8 @@
     "bestWicket": "4/19",
     "role": "Bowler",
     "image": "https://static.india.com/wp-content/uploads/2016/03/mashrafe-mortaza-m.jpg?impolicy=Medium_Resize&w=1200&h=800",
-    "salary": 11000000
+    "salary": 11000000,
+    "nation": "Bangladeshi"
   }, {
     "id": 2,
     "name": "Mohammad Ashraful",
@@ -19,7 +20,8 @@
     "bestWicket": "2/19",
     "role": "Batsman",
     "image": "https://images.news18.com/ibnlive/uploads/2017/09/Ashraful.jpg",
-    "salary": 9500000
+    "salary": 9500000,
+    "nation": "Bangladeshi"
   }, {
     "id": 3,
     "name": "Tamim Iqbal Khan",
@@ -30,7 +32,8 @@
     "bestWicket": "0",
     "role": "Batsman",
     "image": "https://mcmscache.epapr.in/post_images/website_13/post_15132241/thumb.jpg",
-    "salary": 7500000
+    "salary": 7500000,
+    "nation": "Bangladeshi"
   }, {
     "id": 4,
     "name": "Sakib Al Hasan",
@@ -41,7 +44,8 @@
     "bestWicket": "5/20",
     "role": "All-rounder",
     "image" : "https://m.cricbuzz.com/a/img/v1/192x192/i1/c170912/shakib-al-hasan.jpg",
-    "salary": 10000000
+    "salary": 10000000,
+    "nation": "Bangladeshi"
   }, {
     "id": 5,
     "name": "Mushfiqur Rahim",
@@ -52,10 +56,11 @@
     "bestWicket": 0,
     "role": "Batsman",
     "image": "https://cricketaddictor.com/wp-content/uploads/2021/02/Mushfiqur-Rahim_16ae0504644_large.jpg",
-    "salary": 7500000
+    "salary": 7500000,
+    "nation": "Bangladeshi"
   }, {
     "id": 6,
-    "name": "Mahmudullah ",
+    "name": "Mahmudullah Riad",
     "match": 85,
     "run": 1461,
     "wicket": 31,
@@ -63,7 +68,8 @@
     "bestWicket": "3/18",
     "role": "All-rounder",
     "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2015-03/13/full/1426231446-3166.jpg",
-    "salary": 7500000
+    "salary": 7500000,
+    "nation": "Bangladeshi"
   }, {
     "id": 7,
     "name": "Sabbir Rahman",
@@ -74,7 +80,8 @@
     "bestWicket": "3/11",
     "role": "All-rounder",
     "image": "https://d30fl32nd2baj9.cloudfront.net/media/2017/07/20/01-sabbir.jpg/BINARY/01+Sabbir.JPG",
-    "salary": 2000000
+    "salary": 2000000,
+    "nation": "Bangladeshi"
   }, {
     "id": 8,
     "name": "Shahriar Nafees",
@@ -85,7 +92,8 @@
     "bestWicket": 0,
     "role": "Batsman",
     "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_800,q_50/lsci/db/PICTURES/CMS/226400/226425.jpg",
-    "salary": 4500000
+    "salary": 4500000,
+    "nation": "Bangladeshi"
   }, {
     "id": 9,
     "name": "Abdur Razzak",
@@ -96,7 +104,8 @@
     "bestWicket": "4/16",
     "role": "Bowler",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRedX8S2CE3G52rxOxL-qXuVizmHWXM1ho-mA&usqp=CAU",
-    "salary": 5000000
+    "salary": 5000000,
+    "nation": "Bangladeshi"
   }, {
     "id": 10,
     "name": "Anamul Haque",
@@ -107,7 +116,8 @@
     "bestWicket": 0,
     "role": "Batsman",
     "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/316600/316669.png",
-    "salary": 3500000
+    "salary": 3500000,
+    "nation": "Bangladeshi"
   }, {
     "id": 11,
     "name": "Rubel Hossain",
@@ -118,7 +128,8 @@
     "bestWicket": "2/6",
     "role": "Bowler",
     "image": "https://admin.thecricketer.com/weblab/Sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/rubelhossainheadshot-min.jpg",
-    "salary": 3400000
+    "salary": 3400000,
+    "nation": "Bangladeshi"
   }, {
     "id": 12,
     "name": "Taskin Ahmed",
@@ -129,7 +140,8 @@
     "bestWicket": "3/19",
     "role": "Bowler",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXXdywo15SVccA5gxv-ffan3fb2pm975QbOA&usqp=CAU",
-    "salary": 3000000
+    "salary": 3000000,
+    "nation": "Bangladeshi"
   }, {
     "id": 13,
     "name": "Mustafiz Rahman",
@@ -140,10 +152,11 @@
     "bestWicket": "4/19",
     "role": "Bowler",
     "image": "https://imagevars.gulfnews.com/2020/01/23/Mustafizur-Rahman_16fd1d81649_large.jpg",
-    "salary": 6500000
+    "salary": 6500000,
+    "nation": "Bangladeshi"
   }, {
     "id": 14,
-    "name": "Imrl Kayes",
+    "name": "Imrul Kayes",
     "match": 73,
     "run": 798,
     "wicket": 0,
@@ -151,7 +164,8 @@
     "bestWicket": 0,
     "role": "Batsman",
     "image": "https://www.daily-sun.com/assets/news_images/2018/10/21/thumbnails/44606578_1861941853926168_300801543563640832_n.jpg",
-    "salary": 7000000
+    "salary": 7000000,
+    "nation": "Bangladeshi"
   }, {
     "id": 15,
     "name": "Liton Das",
@@ -162,5 +176,6 @@
     "bestWicket": 0,
     "role": "Batsman",
     "image": "https://timesofindia.indiatimes.com/photo/69417760.cms",
-    "salary": 1500000
+    "salary": 1500000,
+    "nation": "Bangladeshi"
   }]

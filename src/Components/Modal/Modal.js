@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "./Modal.css";
 
-const Modal = () => {
+const Modal = (props) => {
+    const {image, name, role, match, bestRun, bestWicket,run, nation, salary
+} = props.playerInfo;
     const [modal, setModal] = useState(false);
 
     const toggleModal = () => {
@@ -26,18 +28,26 @@ const Modal = () => {
                 <div className="modal">
                     <div onClick={toggleModal} className="overlay"></div>
                     <div className="modal-content">
-                        <h2>Hello Modal</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-                            perferendis suscipit officia recusandae, eveniet quaerat assumenda
-                            id fugit, dignissimos maxime non natus placeat illo iusto!
-                            Sapiente dolorum id maiores dolores? Illum pariatur possimus
-                            quaerat ipsum quos molestiae rem aspernatur dicta tenetur. Sunt
-                            placeat tempora vitae enim incidunt porro fuga ea.
-                        </p>
-                        <button className="close-modal" onClick={toggleModal}>
-                            CLOSE
-                        </button>
+                        <div>
+                            <div className="modal-body">
+                                <div className="modal-img">
+                                    <img src={image} alt="" />
+                                </div>
+                                <h3>{name}</h3>
+                                <ul className="infoList">
+                                    <li><span className="listHeading">Role:</span> {role}</li>
+                                    <li><span className="listHeading">T20 Match:</span> {match}</li>
+                                    <li><span className="listHeading">Best Run:</span> {bestRun}</li>
+                                    <li><span className="listHeading">Total Run: </span>{run}</li>
+                                    <li><span className="listHeading">Best Wickets:</span> {bestWicket}</li>
+                                    <li><span className="listHeading">Nation:</span> {nation}</li>
+                                    <li><span className="listHeading">Base Price:</span> {salary}</li>
+                                </ul>
+                            </div>
+                            <button className="close-modal" onClick={toggleModal}>
+                                CLOSE
+                            </button>
+                        </div>
                     </div>
                 </div>
             )}

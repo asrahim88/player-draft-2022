@@ -1,6 +1,7 @@
 .playerListContainer {
     width: 90%;
     margin: auto;
+    padding-top: 150px;
 }
 .playerList {
     display: grid;
